@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add a New Message</title>
+</head>
+<body>
+    <h1>Add a New Message</h1>
+
+    <form action="/new" method="POST">
+        <label for="user">Your Name:</label>
+        <input type="text" id="user" name="user" required>
+
+        <label for="text">Message:</label>
+        <input type="text" id="text" name="text" required>
+
+        <button type="submit">Send</button>
+    </form>
+
+    <a href="/">Back to Messages</a>
+</body>
+</html>
